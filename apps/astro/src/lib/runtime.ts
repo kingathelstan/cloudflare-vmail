@@ -16,7 +16,7 @@ export interface RuntimeBindings {
 }
 
 export function getRuntimeBindings(): RuntimeBindings {
-  return env as RuntimeBindings
+     return env as unknown as RuntimeBindings
 }
 
 export function getAvailableDomains(env: Pick<RuntimeBindings, 'AVAILABLE_DOMAINS'>): string[] {
