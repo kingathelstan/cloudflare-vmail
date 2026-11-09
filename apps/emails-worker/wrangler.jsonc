@@ -12,7 +12,7 @@
 		{
 			"binding": "DB",
 			"database_name": "prod-emails_forward",
-			"database_id": "fe17b2fd-b691-4ca3-b913-c070e2845fba",
+			"database_id": "468edbf8-5b9a-4d22-a1f0-a0d717c43d47",
 			"migrations_dir": "../../packages/database/drizzle"
 		}
 	],
