@@ -2,6 +2,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "vmail-app",
 	"main": "@astrojs/cloudflare/entrypoints/server",
+  "keep_vars": true,
 	"compatibility_date": "2026-08-02",
 	"compatibility_flags": [
 		"nodejs_compat",
@@ -35,6 +36,5 @@
 	],
 	"placement": {
 		"mode": "smart"
-	},
-"keep_vars": true
+	}
 }
