@@ -14,9 +14,9 @@
 	"observability": {
 		"enabled": true
 	},
-	// Configure BATCH_ADMIN_TOKEN, JWT_SECRET, and TURNSTILE_SECRET with Wrangler Secrets.
+  // Add AVAILABLE_DOMAINS as a Worker variable
+  // Configure BATCH_ADMIN_TOKEN, JWT_SECRET, and TURNSTILE_SECRET with Wrangler Secrets.
 	"vars": {
-		"AVAILABLE_DOMAINS": "fucku.cfd",
 		"COOKIE_EXPIRES_IN_SECONDS": 86400,
 		"DEV_MODE": "false",
 		"MOCK_EMAIL_COUNT": "5",
@@ -33,23 +33,8 @@
 			"migrations_dir": "../../packages/database/drizzle"
 		}
 	],
-	"routes": [
-		{
-			"pattern": "fucku.cfd",
-			"zone_name": "fucku.cfd",
-			"custom_domain": true,
-			"enabled": true,
-			"previews_enabled": false
-		},
-		{
-			"pattern": "www.fucku.cfd",
-			"zone_name": "fucku.cfd",
-			"custom_domain": true,
-			"enabled": true,
-			"previews_enabled": false
-		}
-	],
 	"placement": {
 		"mode": "smart"
 	}
+"keep_vars": true
 }
