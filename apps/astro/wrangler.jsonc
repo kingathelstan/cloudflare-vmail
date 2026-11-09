@@ -23,7 +23,7 @@
 		"MOCK_EMAIL_COUNT": "5",
 		"SITE_DESCRIPTION": "A privacy-focused virtual temporary email service",
 		"SITE_NAME": "MiraHikari Mail",
-		"TURNSTILE_SITE_KEY": "0x4AAAAAAEEl_pI2rI9rs7qf",
+		"TURNSTILE_SITE_KEY": "0x4AAAAAAF6j-5TvX6nlXkCh",
 		"USE_MOCK_DATA": "false"
 	},
 	"d1_databases": [
